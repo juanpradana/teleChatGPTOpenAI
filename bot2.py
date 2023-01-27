@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import openai
 from telegram.ext import Updater, MessageHandler, Filters
 
+# Get data from dotenv
 load_dotenv()
 api_key = os.getenv("API_KEY")
 token_tele = os.getenv("TOKEN")
